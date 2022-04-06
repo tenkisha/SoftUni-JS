@@ -4,5 +4,3 @@ function greeting(input){
     console.log(`Hello, ${name}! `)
 
 }
-
-greeting(['world','hi'])
