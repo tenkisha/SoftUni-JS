@@ -14,7 +14,6 @@ function sumNumbers(input) {
             console.log(i)
         }
     }
-
 }
 
 sumNumbers([100,200])
