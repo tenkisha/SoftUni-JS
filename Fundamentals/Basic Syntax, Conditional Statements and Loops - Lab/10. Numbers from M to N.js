@@ -1,8 +1,7 @@
-function nTo1(m,n){
-    for(let i=m;i>=n;i--){
-        console.log(i)
-    }
+function nTo1(m, n) {
+  for (let i = m; i >= n; i--) {
+    console.log(i);
   }
+}
 
-  nTo1(6
-    ,2)
+nTo1(6, 2);
