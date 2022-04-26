@@ -6,14 +6,13 @@ function login(input) {
 
     counter++;
     if (counter == 4) {
-        console.log(`User ${userName} blocked!`);
-        break;
-      }
+      console.log(`User ${userName} blocked!`);
+      break;
+    }
     if (el == userName) {
       console.log(`User ${userName} logged in.`);
     } else {
       console.log(`Incorrect password. Try again.`);
-      
     }
   }
 }
