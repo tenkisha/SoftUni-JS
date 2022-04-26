@@ -8,4 +8,4 @@ function echo(parameter) {
     console.log("Parameter is not suitable for printing");
   }
 }
-echo(null)
+echo(null);
