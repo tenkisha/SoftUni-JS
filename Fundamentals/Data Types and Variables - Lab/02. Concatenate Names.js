@@ -1,7 +1,5 @@
-function concatenate(name,param,delimeter){
-    console.log(`${name}${delimeter}${param}`)
+function concatenate(name, param, delimeter) {
+  console.log(`${name}${delimeter}${param}`);
 }
 
-concatenate('John'
-    ,'Smith'
-    ,'->')
+concatenate("John", "Smith", "->");
