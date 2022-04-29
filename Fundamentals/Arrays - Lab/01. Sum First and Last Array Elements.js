@@ -1,8 +1,8 @@
-function firstLast(input){
-    let first = input[0];
-    let last = input[input.length - 1]
+function firstLast(input) {
+  let first = input[0];
+  let last = input[input.length - 1];
 
-    console.log(first + last)
+  console.log(first + last);
 }
 
-firstLast([5,6])
+firstLast([5, 6]);
