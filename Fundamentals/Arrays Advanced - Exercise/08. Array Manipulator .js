@@ -1,4 +1,4 @@
-function solve(arr, commands) {
+function solvex(arr, commands) {
   let newArr = [];
   for (let el of commands) {
     let [command, index, element] = el.split(" ");
