@@ -1,13 +1,12 @@
 function revealWords(words, text) {
-    words = words.split(', ')
-  
-    for(let word of words){
-  
-      let template = '*'.repeat(word.length)
-      text = text.replace(template,word)
-    }
-    console.log(text)
+  words = words.split(", ");
+
+  for (let word of words) {
+    let template = "*".repeat(word.length);
+    text = text.replace(template, word);
   }
+  console.log(text);
+}
 
 revealWords(
   "great",
