@@ -13,9 +13,9 @@ function sameNumber(input) {
   if (count == input.length) {
     console.log("true");
     console.log(counter);
-  }else{
-      console.log('false')
-      console.log(counter)
+  } else {
+    console.log("false");
+    console.log(counter);
   }
 }
 
