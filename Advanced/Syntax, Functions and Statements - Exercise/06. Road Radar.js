@@ -58,10 +58,10 @@ function roadRadar(speed, place) {
   }
 
   if (place == "residential" && speed <= 20) {
-    limit = 20 ;
+    limit = 20;
     console.log(`Driving ${speed} km/h in a ${limit} zone`);
-  } else if (place == "residential" && speed > 20 ) {
-    limit = 20 ;
+  } else if (place == "residential" && speed > 20) {
+    limit = 20;
     difference = speed - limit;
     if (difference <= 20) {
       status = "speeding";
@@ -76,4 +76,4 @@ function roadRadar(speed, place) {
   }
 }
 
-roadRadar(21, 'residential');
+roadRadar(21, "residential");
