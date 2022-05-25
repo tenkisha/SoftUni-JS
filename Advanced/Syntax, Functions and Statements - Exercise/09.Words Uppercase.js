@@ -1,20 +1,13 @@
-function solve(text) {
+function solve(input) {
+  let regexWords = /(\w+)/g;
+  let regexMatches = input.match(regexWords);
+  let arrUpperCase = [];
 
-    let result = text.toUpperCase()
-      .split(/[\W]+/)
-      .filter(w => w.length > 0)
-      .join(", ");
-  
-    console.log(result);
-  }
-  
-  
-  function solve(text) {
-    let result = text.toUpperCase()
-      .match(/\w+/g)
-      .join(', ');
-    
-    console.log(result);
+  for (let i = 0; i < regexMatches.length; i++) {
+    arrUpperCase.push(regexMatches[i].toUpperCase());
   }
 
-solve('Hi, how are you?')
+  console.log(arrUpperCase.join(", "));
+}
+
+solve("Hi, how are you?");
