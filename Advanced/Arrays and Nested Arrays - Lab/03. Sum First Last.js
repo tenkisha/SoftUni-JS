@@ -1,12 +1,10 @@
-function sumFirstLast(input){
+function sumFirstLast(input) {
+  let first = Number(input.shift());
+  let last = Number(input.pop());
 
-    let first = Number(input.shift())
-    let last = Number(input.pop())
+  let sum = first + last;
 
-    let sum = first + last
-
-    console.log(sum)
-
+  console.log(sum);
 }
 
-sumFirstLast(['20', '30', '40'])
+sumFirstLast(["20", "30", "40"]);
