@@ -1,11 +1,7 @@
-function smallestNumber(input){
+function smallestNumber(input) {
+  input = input.sort((a, b) => a - b);
 
-    input = input.sort((a,b) => a - b)
-
-    console.log(input[0] , input[1])
-
-    
-
+  console.log(input[0], input[1]);
 }
 
-smallestNumber([30, 15, 50, 5])
+smallestNumber([30, 15, 50, 5]);
