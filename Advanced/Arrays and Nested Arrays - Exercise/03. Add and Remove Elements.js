@@ -17,7 +17,4 @@ function addAndRemove(input) {
   }
 }
 
-addAndRemove(['remove', 
-'remove', 
-'remove']
-);
+addAndRemove(["remove", "remove", "remove"]);
