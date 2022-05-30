@@ -1,12 +1,11 @@
-function cityRecords(name,population,treasury) {
+function cityRecords(name, population, treasury) {
+  let person = {
+    name: name,
+    population: population,
+    treasury: treasury,
+  };
 
-    let person = {
-        name: name,
-        population: population,
-        treasury: treasury
-    }
-
-    console.log(person);
+  return person;
 }
 
 cityRecords("Tortuga", 7000, 15000);
