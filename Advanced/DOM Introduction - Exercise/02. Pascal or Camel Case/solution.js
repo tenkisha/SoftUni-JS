@@ -18,8 +18,8 @@ function solve() {
       if (text[i] === " ") {
         result += text[i + 1].toUpperCase();
         i++;
-      }else{
-        result += text[i].toLowerCase()
+      } else {
+        result += text[i].toLowerCase();
       }
     }
   } else {
