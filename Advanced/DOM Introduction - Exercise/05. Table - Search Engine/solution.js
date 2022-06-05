@@ -13,6 +13,6 @@ function solve() {
         row.className = "select";
       }
     }
-    input.value = ''
+    input.value = "";
   }
 }
