@@ -31,7 +31,7 @@ function solve() {
       let key = entry[0];
       let values = Object.entries(entry[1]);
 
-      for (let [name,salary] of values) {
+      for (let [name, salary] of values) {
         totalSalary += salary;
       }
       avgSalary = totalSalary / values.length;
@@ -50,7 +50,7 @@ function solve() {
       "#bestRestaurant p"
     ).textContent = `Name: ${bestName} Average Salary: ${currAvgSalary.toFixed(
       2
-    )} Best Salary: ${(result[0][1]).toFixed(2)}`;
+    )} Best Salary: ${result[0][1].toFixed(2)}`;
     document.querySelector("#workers p").textContent = print;
   }
 }
