@@ -14,8 +14,8 @@ function addItem() {
   document.getElementById("items").appendChild(liElement);
 
   input.value = "";
+  function onDelete(event) {
+    event.target.parentElement.remove();
+  }
 }
 
-function onDelete(event) {
-  event.target.parentElement.remove();
-}
