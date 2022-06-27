@@ -17,4 +17,8 @@ function focused() {
         ev.target.parentElement.className = '';
 
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> fd6a1f5249e2af3e0bcc2ada8e01df880141eec9

@@ -13,4 +13,8 @@ function validate() {
 
         event.target.className = 'error';
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> fd6a1f5249e2af3e0bcc2ada8e01df880141eec9
