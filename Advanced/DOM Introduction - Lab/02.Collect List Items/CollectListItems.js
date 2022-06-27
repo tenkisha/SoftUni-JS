@@ -1,6 +1,10 @@
 function extractText() {
-  const items = Array.from(document.querySelectorAll("li"));
-  const result = items.map((e) => e.textContent).join("\n");
+  
+  let elements = document.getElementById('items')
 
-  document.getElementById("result").value = result;
+  let input = document.getElementById('result')
+
+  input.textContent = elements.textContent
+
+  
 }

@@ -1,10 +1,11 @@
 function subtract() {
-  let firstNumber = document.getElementById("firstNumber");
-  let firstNumAsNumber = Number(firstNumber.value);
-  let secondNumber = document.getElementById("secondNumber");
-  let secNumAsNumber = Number(secondNumber.value);
 
-  let result = firstNumAsNumber - secNumAsNumber;
-  let resultElement = document.getElementById("result");
-  resultElement.textContent = result;
+  let firstEle = Number(document.getElementById('firstNumber').value);
+  let secondEle = Number(document.getElementById('secondNumber').value);
+
+  let result = firstEle - secondEle
+
+  document.getElementById('result').textContent = result
+
+
 }

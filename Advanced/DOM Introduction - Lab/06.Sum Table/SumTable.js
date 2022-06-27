@@ -3,7 +3,7 @@ function sumTable() {
   let sum = 0;
 
   for (let row of rows) {
-    const value = Number(row.lastElementChild.textContent);
+    const value = Number(row.lastElementChild.textContent); 
     sum += value;
   }
 

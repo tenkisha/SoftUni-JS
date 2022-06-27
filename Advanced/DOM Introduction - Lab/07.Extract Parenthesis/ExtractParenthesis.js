@@ -10,6 +10,8 @@ function extract(content) {
     result += match[1] + "; ";
     match = pattern.exec(text);
   }
+  console.log(result)
 
   return result;
+
 }
