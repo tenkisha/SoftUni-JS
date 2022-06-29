@@ -34,8 +34,8 @@ function attachEventsListeners() {
 
         let input = event.target.parentElement.querySelector('input[type="text"]')
         let time = convert(Number(input.value), input.id)
-        
-        
+
+
         days.value = time.days
         hours.value = time.hours;
         minutes.value = time.minutes;
