@@ -12,7 +12,7 @@ function areaVol(areaIn, volIn, input) {
         result.push(current)
     }
 
-    return result
+    console.log(result)
 
 }
 
