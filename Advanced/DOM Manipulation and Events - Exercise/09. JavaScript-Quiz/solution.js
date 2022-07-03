@@ -20,7 +20,7 @@ function solve() {
 
     document.querySelector(`section:nth-of-type(${questionProgress})`).style.display = 'none';
 
-    //if there are more questions - reveal next question, else reveal results
+    
     if(questionProgress != totalQuestions){
       document.querySelector(`section:nth-of-type(${questionProgress+1})`).style.display = 'block';
     } else {
