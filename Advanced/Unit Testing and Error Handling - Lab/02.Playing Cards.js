@@ -2,7 +2,7 @@ function createCard(face, suit) {
 
     const faces = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
 
-    if (faces.indexOf(face) == -1) {
+    if (faces.indexOf(face) == false) {
         throw new Error('Invalid face: ' + face)
     }
     const suits = {
